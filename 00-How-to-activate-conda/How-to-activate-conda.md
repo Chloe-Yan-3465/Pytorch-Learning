@@ -1,6 +1,6 @@
 # How to active conda
 首先,我并没有设置成 开启终端自动source ~/.bashrc  
-所以，做所有事情之前，记得  
+所以，请记得  
 ```bash
 source ~/.bashrc
 ```
@@ -113,6 +113,15 @@ conda deactivate
 ![deactivate2](./images/deactivate2.png)
 
 
+## ✅ 导出yaml
+```bash
+# 导出全部环境配置
+conda env export > environment.yaml
+```
+```bash
+# 在别的机器复现
+conda env create -f environment.yaml
+```
 
 ## ✅ Conda 中的 `(base)` 与自建环境如 `(pytorch_env)` 总结
 
