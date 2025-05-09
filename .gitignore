@@ -3,3 +3,4 @@ __pycache__/
 *.pyo
 .env
 *.ipynb_checkpoints
+dataset/mnist/x_train.npy
